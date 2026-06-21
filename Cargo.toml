@@ -1,0 +1,22 @@
+[package]
+name = "prochollowing_rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["ev3nthorizon.exe"]
+
+[dependencies]
+winapi = { version = "0.3", features = [
+    "std",
+    "minwindef",
+    "ntdef",
+    "errhandlingapi",
+    "handleapi",
+    "libloaderapi",
+    "memoryapi",
+    "processthreadsapi",
+    "synchapi",
+    "winbase",
+    "winnt",
+    "debugapi",
+    "tlhelp32",
+] }
